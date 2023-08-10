@@ -1,0 +1,65 @@
+<h1><u>Student Registration Form</u></h1>
+    <form class="registration-form">
+        <div class="name-in">
+            Frist Name : <input type="text" name="F-name" placeholder="enter your frist name"> <br> <br>
+        </div>
+            Last Name : <input type="text" name="L-name" placeholder="enter your last name"> <br> <br>
+            Email : <input type="email" name="F-name" placeholder="it should contain @.."> <br> <br>
+            Mobile : <input type="number" name="F-name" placeholder="only 10 digits are allowed"> <br> <br>
+
+        <label for="Gender">Gender : </label>
+        Male<input type="radio" name="Gender">
+        Female<input type="radio" name="Gender">
+        <br>
+        <br>
+
+        <label for="birthday">Date Of Birth:</label>
+        <input type="date" id="birthday" name="birthday">
+        <br>
+        <br>
+
+        <label for="address">Address : </label>
+        <textarea name="text" id="text" cols="30" rows="10" placeholder="text here...."></textarea>
+        <br>
+        <br>
+
+        <label for="city">City</label>
+        <input type="text">
+        <br>
+        <br>
+
+        <label for="pincode">Area PIN</label>
+        <input type="text">
+        <br>
+        <br>
+
+        <label for="State">State</label>
+        <input type="text">
+        <br>
+        <br>
+
+        <label for="sellection">Qualification</label>
+        <select class="select" id="select" name="select">
+            <option value="">Select Qualification</option>
+            <option value="BCA">BCA</option>
+            <option value="Bsc IT">Bsc IT</option>
+            <option value="B Tech">B Tech</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="Specialization">Specialization</label> <br>
+        Computer Science<input type="checkbox"><br>
+        Information Technology<input type="checkbox"> <br>
+        Computer Architecture<input type="checkbox"> <br>
+        Tele Communication <input type="checkbox"> <br>
+        <br>
+        <br>
+
+        <label for="password">Password</label>
+        <input type="password">
+        <br>
+        <br>
+
+        <button>Registered</button>
+    </form>
