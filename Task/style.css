@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+i {
+    position: absolute;
+    font-size: 25px;
+    top: 15px;
+    right: 20px;
+}
+
+.shape {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    opacity: 0;
+}
+
+a {
+    color: black;
+    margin-left: 100px;
+    font-size: 30px;
+    position: relative;
+    font-weight: 900;
+    text-decoration: none;
+    /* display: none; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0%;
+    background-color: #333;
+    transition: all ease 1s;
+}
+a:hover::after{
+    width: 100%;
+}
+.container{
+    background-color: lightcoral;
+    height: 100px;
+    position: relative;
+}
+
+input:checked + .links>a {
+    display: inline-block;
+    padding: 0px 100px;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+.product-list-container {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product-card {
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .product-card img {
+    width: 80%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    /* transition: 2.5s; */
+  }
+  
+  .product-title {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+    padding-left: 30px;
+    padding-bottom: 20px;
+
+  }
+  
+  .product-description {
+    margin: 10px 0;
+    color: #333;text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;
+  }
+  
+  .product-price {
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+  }
+button {
+    height: 50px;
+    width: 50%;
+    font-size: 25px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightsalmon;
+    border-radius: 50px;
+    margin-left: 25%;
+}
+.product-card img:hover{
+    transition: 2.5s;
+    transform: rotateY(180deg);
+}

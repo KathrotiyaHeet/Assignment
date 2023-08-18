@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Navbar</title>
+    <style>
+        .navbar {
+            background-color: brown;
+            height: 150px;
+            position: relative;
+        }
+
+        img {
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+
+        a {
+            color: white;
+            margin-left: 15px;
+            font-size: 30px;
+            text-decoration: none;
+            display: none;
+        }
+
+        i {
+            position: absolute;
+            font-size: 30px;
+            top: 15px;
+            right: 20px;
+        }
+
+        .shape {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            opacity: 0;
+        }
+
+        input:checked+.links>a {
+            display: inline-block;
+            padding: 0px 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="logo.png" alt="image" width="40px">
+        <i class="fa-solid fa-bars"></i>
+        <input type="checkbox" class="shape">
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
+            <a href="#">Help</a>
+        </div>
+    </div>
+</body>
+
+</html>
