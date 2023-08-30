@@ -68,3 +68,16 @@ button{
     width: 200px;
     margin-left: 20px;
 }
+
+/* 2ns page */
+.container-1{
+    background-color: rgb(40, 39, 39);
+    display: flex;
+
+}
+.main-div-1{
+    display: flex;
+}
+.title{
+    padding-left: 30%;
+}
