@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#flip").click(function () {
+                $("#panel").slideToggle("slow");
+            });
+        });
+    </script>
+    <style>
+        #panel,
+        #flip {
+            padding: 5px;
+            text-align: center;
+            background-color: #e5eecc;
+            border: solid 1px #c3c3c3;
+        }
+
+        #panel {
+            padding: 50px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="flip">Click To Slide The Panel Down Or Up</div>
+    <div id="panel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, blanditiis at voluptatem aspernatur quaerat alias, eius quia similique debitis sunt quam soluta tempore. Fuga omnis quam, dicta labore dolores distinctio et quia nostrum ad. Fugiat quod, temporibus esse fuga ex placeat suscipit odit itaque? Quo ipsum veniam nemo! Explicabo, sit?</div>
+
+</body>
+
+</html>
