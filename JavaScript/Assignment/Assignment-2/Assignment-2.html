@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Simple Calculator</h1>
+            <div class="box1">
+                <div class="labels">
+                    <label for="Fnumber:"> Enter First Number:</label>
+                </div>
+                <div class="inputs">
+                    <input type="text" id="input1" required>
+                </div>
+            </div>
+    
+            <div class="box1">
+                <div class="labels">
+                    <label for="Snumber:">Enter Second Number:</label>
+                </div>
+                <div class="inputs">
+                    <input type="text" id="input2"required>
+                </div>
+            </div>
+            <div class="box2">
+                <button onclick="sum()">+</button>
+                <button onclick="sub()">-</button>
+                <button onclick="mul()">*</button>
+                <button onclick="div()">/</button>
+            </div>
+            <div class="box1">
+                <div class="labels">
+                    <label for="Result:">Result:</label>
+                </div>
+                <div id="result">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 1px solid black;
+    width: 40%;
+    margin: 40px auto;
+    padding: 10px;
+}
+
+h2{
+    padding: 30px;
+    text-align: center;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: green;
+    padding: 15px 40px;
+    margin: 20px 0px 0px 160px;
+}
+
+.box{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.inputs{
+    padding-left: 80px;
+}
+
+#input1{
+    width: 300px;
+    height: 40px;
+}
+
+#input2{
+    width: 300px;
+    height: 40px;
+    margin-left: -18px;
+}
+
+#input3{
+    width: 300px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+#input4{
+    width: 300px;
+    height: 40px;
+    margin-left: 35px;
+}
+
+#input5{
+    width: 300px;
+    height: 40px;
+    margin-left: 52px;
+}
+
+#input6{
+    width: 300px;
+    height: 40px;
+    margin-left: 55px;
+}
+
+#input7{
+    width: 300px;
+    height: 40px;
+    margin-left: 18px;
+}
+
+.total{
+    margin-left: 50px;
+}
+
+.perce{
+    margin-left: 100px;
+    padding-left: 100px;
+}
+
+#result{
+    width: 300px;
+    height: 30px;
+    
+    background-color: white;
+    color: black;
+}
